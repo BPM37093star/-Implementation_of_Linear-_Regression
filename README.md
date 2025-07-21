@@ -1,24 +1,43 @@
-Practical 1: Linear Regression (Ridge, Lasso) Implementation
-Overview
-This project implements linear regression models using Python. The goal is to understand and apply the least squares method to build linear models from scratch, and then extend these with polynomial basis expansion and regularization techniques (Ridge and Lasso) using scikit-learn. The project also involves analyzing learning curves to diagnose underfitting or overfitting, and optionally using k-fold cross-validation to optimize hyperparameters.
+# Practical 1: Linear Regression (Ridge, Lasso) Implementation
 
-The project uses real-world datasets including the Wine Quality dataset.
+## Project Overview
 
-Features
-Implementation of linear regression from scratch using NumPy
+This project focuses on implementing linear regression models using Python. It includes:
 
-Polynomial basis expansion for modeling non-linear relationships
+- A from-scratch implementation of linear regression using the least squares method with NumPy.
+- Polynomial basis expansion to capture non-linear relationships.
+- Ridge and Lasso regularization techniques using scikit-learn.
+- Learning curve visualization for diagnosing underfitting or overfitting.
+- Optional k-fold cross-validation for hyperparameter tuning.
 
-Ridge and Lasso regression using scikit-learn
+Datasets used include the Wine Quality dataset and California Housing dataset.
 
-Learning curve visualization for model diagnosis
+---
 
-Hyperparameter tuning with k-fold cross-validation (optional)
+## Features
 
-Data preprocessing and exploratory data analysis
+- Implement linear regression from scratch  
+- Extend models with polynomial features  
+- Apply Ridge and Lasso regularization  
+- Visualize learning curves to assess model fit  
+- Perform hyperparameter tuning with cross-validation (optional)  
+- Conduct data preprocessing and exploratory analysis  
 
-Dataset
-Wine Quality datasets (red and white wine) from UCI Machine Learning Repository:
-https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+---
 
-California Housing dataset for initial testing
+## Dataset
+
+- Wine Quality dataset (red & white wines):  
+  https://archive.ics.uci.edu/ml/datasets/Wine+Quality  
+- California Housing dataset
+
+---
+
+## Requirements
+
+- Python 3.7+  
+- NumPy  
+- Pandas  
+- scikit-learn  
+- Matplotlib  
+- Jupyter Notebook (recommended)
